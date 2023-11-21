@@ -1,0 +1,45 @@
+html, body {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+p.diretor, p.ano, i.rating, p#nota {
+  display: inline;
+}
+
+div.adicionar {
+  float: left;
+  width: 30%;
+  height: 300px;
+  padding: 20px;
+}
+
+div.biblioteca {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  display: inline-block;
+}
+
+img {
+  width: 30%;
+}
+
+div.filme h4, div.filme i, p.diretor, p.ano, p#nota, div.filme button {
+  font-size: 15px;
+  position: relative;
+  left: 75px;
+  bottom: 75px;
+}
+
+a {
+  color: black;
+}
+i.favorito {
+  color: rgb(230, 114, 133);
+  border-color: rgb(230, 114, 133);
+}
+h4 {
+  font-size: 15px;
+}
